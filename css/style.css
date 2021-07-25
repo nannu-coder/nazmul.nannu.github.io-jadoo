@@ -106,7 +106,8 @@ ol {
 
 }
 
-.category_heading P {
+.category_heading P,
+.selling_heading p {
     margin: 0;
     font-family: var(--primary-font);
     font-style: normal;
@@ -114,10 +115,44 @@ ol {
     color: #5E6282;
 }
 
-.category_heading h2 {
+.category_heading h2,
+.selling_heading h2 {
     font-family: var(--heading-font);
     font-size: 50px;
     font-weight: 700;
     font-style: normal;
     color: #14183E;
+}
+
+/*=====Selligng Part=====*/
+.selling_part {
+    margin-top: 100px;
+}
+
+.des_img {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+        0px 20px 13px rgba(0, 0, 0, 0.01),
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.des_img img {
+    height: 350px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-title p {
+    margin: 0;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card-text span {
+    margin-right: 10px;
 }
