@@ -1,0 +1,123 @@
+/*=====GOOGLE FONT=====*/
+
+/*Volkhov*/
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+/*POPPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*=====CUSTOM CSS=====*/
+:root {
+    /*=====FONTS=====*/
+    --primary-font: 'Poppins',
+        sans-serif;
+    --heading-font: 'Volkhov',
+        serif;
+
+    /*=====COLORS=====*/
+    --primary-color: #F1A501;
+}
+
+/*=====COMMON CSS=====*/
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*=====Navbar=====*/
+.menu ul li a {
+    margin: 0 15px
+}
+
+/*=====Banner Part=====*/
+.header {
+    background: url(../img/Decore.png) no-repeat -16px -100px;
+}
+
+
+.bnnr_text {
+    margin-top: 60px;
+}
+
+.bnnr_text h1 {
+    font-family: var(--heading-font);
+    font-size: 77px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.banner_text {
+    background: url(../img/text-bg.png) no-repeat 250px 90px;
+}
+
+.hdr {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn_n_icon button {
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+.btn_n_icon a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #DF6951;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    font-size: 11px;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+    margin-left: 30px;
+}
+
+/*=====CATEGORY PART=====*/
+.category_part {
+    margin-top: 100px;
+    background: url(../img/ct-bg.png) no-repeat right top;
+}
+
+.crd img {
+    width: 100px;
+    height: 100px;
+}
+
+.category_brd {
+    border: none;
+    border-radius: 25px;
+}
+
+.category_brd:hover {
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+        0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+        0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+        0px 20px 13px rgba(0, 0, 0, 0.01),
+        0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+        0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+
+}
+
+.category_heading P {
+    margin: 0;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-size: 18px;
+    color: #5E6282;
+}
+
+.category_heading h2 {
+    font-family: var(--heading-font);
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+    color: #14183E;
+}
