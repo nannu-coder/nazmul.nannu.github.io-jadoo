@@ -12,8 +12,8 @@ $('.brand_slide').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
+                centerPadding: '0px',
+                slidesToShow: 1,
             }
         },
         {
@@ -21,8 +21,17 @@ $('.brand_slide').slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                centerPadding: '0px',
+                slidesToShow: 1,
+            }
+        },
+        {
+            breakpoint: 320,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+                centerMode: true,
+                centerPadding: '0px',
             }
         }
     ]
