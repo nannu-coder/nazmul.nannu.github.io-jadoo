@@ -156,3 +156,43 @@ ol {
 .card-text span {
     margin-right: 10px;
 }
+
+/*=====Brand Slider=====*/
+
+.brand_slider {
+    margin-top: 50px;
+}
+
+.slide img {
+    height: 100px;
+}
+
+/*=====Subscribe part=====*/
+.src_input {
+    margin-top: 100px;
+    background: url(../img/plusbg.png) no-repeat right bottom;
+    padding-bottom: 100px;
+}
+
+.bg_sub {
+    background: url(../img/bg1.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 70px 0;
+
+}
+
+.sub_head {
+    max-width: 859px;
+    margin: auto;
+}
+
+.sub_input {
+    max-width: 600px;
+    margin: auto;
+}
+
+.sub_input button {
+    background-image: linear-gradient(to top, #FF946D, #FF7D68);
+    color: #ffffff;
+}
